@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="IntroduceStudent" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="macaulaylogo" id="gt3-Xn-laq">
+                                <rect key="frame" x="24" y="68" width="344" height="144"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                            </imageView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Uw4-f7-uB4">
+                                <rect key="frame" x="34" y="220" width="69" height="40"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="First">
+                                        <attributes>
+                                            <font key="NSFont" size="18" name="Times-Roman"/>
+                                            <font key="NSOriginalFont" size="22" name="GujaratiMT"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="P5C-Fa-QGc">
+                                <rect key="frame" x="34" y="270" width="69" height="32"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="Last">
+                                        <attributes>
+                                            <font key="NSFont" size="18" name="Times-Roman"/>
+                                            <font key="NSOriginalFont" size="17" name="GujaratiMT"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="nSQ-gm-kNB">
+                                <rect key="frame" x="33" y="366" width="69" height="37"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="School">
+                                        <attributes>
+                                            <font key="NSFont" size="18" name="TimesNewRomanPSMT"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Lauren" textAlignment="natural" adjustsFontForContentSizeCategory="YES" minimumFontSize="17" id="9y0-qd-ZQl">
+                                <rect key="frame" x="87" y="223" width="272" height="34"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Galarza" textAlignment="natural" adjustsFontForContentSizeCategory="YES" minimumFontSize="17" id="3AX-MD-edL">
+                                <rect key="frame" x="87" y="268" width="272" height="34"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <segmentedControl opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="1" id="dfS-qp-JKe">
+                                <rect key="frame" x="24" y="455" width="344" height="32"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES"/>
+                                <color key="backgroundColor" red="0.90418077129999996" green="0.80151687559999996" blue="0.78638025759999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <segments>
+                                    <segment title="First"/>
+                                    <segment title="Second"/>
+                                    <segment title="Third"/>
+                                    <segment title="Fourth"/>
+                                </segments>
+                            </segmentedControl>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="7qa-IC-MWt">
+                                <rect key="frame" x="33" y="420" width="44" height="20"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="Major">
+                                        <attributes>
+                                            <font key="NSFont" size="18" name="TimesNewRomanPSMT"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Computer Science" textAlignment="center" adjustsFontForContentSizeCategory="YES" minimumFontSize="17" id="RHy-sZ-NJ5">
+                                <rect key="frame" x="91" y="413" width="273" height="34"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Macaulay Honors College at CUNY" textAlignment="natural" adjustsFontForContentSizeCategory="YES" minimumFontSize="17" id="mNI-OA-SXY">
+                                <rect key="frame" x="91" y="367" width="273" height="34"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" id="aMi-LA-Um9">
+                                <rect key="frame" x="122" y="773" width="148" height="34"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <color key="tintColor" red="0.90196073060000004" green="0.60174949457513205" blue="0.55535759083653813" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="Introduce Self">
+                                            <attributes>
+                                                <font key="NSFont" size="18" name="TimesNewRomanPS-BoldMT"/>
+                                                <font key="NSOriginalFont" size="12" name="Helvetica"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="introduceSelfButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="NlO-1d-t0Q"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Keo-9W-Zih">
+                                <rect key="frame" x="34" y="316" width="64" height="20"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="Location">
+                                        <attributes>
+                                            <font key="NSFont" size="18" name="TimesNewRomanPSMT"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <segmentedControl opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" id="ikK-mV-udK">
+                                <rect key="frame" x="105" y="310" width="261" height="32"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES"/>
+                                <segments>
+                                    <segment title="The United States"/>
+                                    <segment title="Outside the US"/>
+                                </segments>
+                            </segmentedControl>
+                            <slider opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" id="gvm-eD-wZ9">
+                                <rect key="frame" x="32" y="724" width="327" height="30"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES"/>
+                                <color key="tintColor" red="0.58120570231958757" green="0.33692672028029136" blue="0.30974903748450122" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <connections>
+                                    <action selector="codingSliderChanged:" destination="BYZ-38-t0r" eventType="valueChanged" id="vQI-De-w4l"/>
+                                </connections>
+                            </slider>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="confusedclipart" id="rFv-RO-9S2">
+                                <rect key="frame" x="28" y="661" width="64" height="63"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="smartclipart" id="5fR-n5-iQ5">
+                                <rect key="frame" x="300" y="649" width="64" height="87"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                            </imageView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="98S-qQ-YLR">
+                                <rect key="frame" x="36" y="536" width="36" height="20"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="Pets:">
+                                        <attributes>
+                                            <font key="NSFont" size="18" name="TimesNewRomanPSMT"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="qrf-DR-sP7">
+                                <rect key="frame" x="73" y="535" width="36" height="21"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <fontDescription key="fontDescription" name="TimesNewRomanPSMT" family="Times New Roman" pointSize="18"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <stepper opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" maximumValue="100" id="nap-tn-cgo">
+                                <rect key="frame" x="28" y="564" width="94" height="32"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <connections>
+                                    <action selector="stepperDidChange:" destination="BYZ-38-t0r" eventType="valueChanged" id="piU-BI-cfu"/>
+                                </connections>
+                            </stepper>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="More Pets?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="PRO-83-rdK">
+                                <rect key="frame" x="152" y="536" width="87" height="21"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <fontDescription key="fontDescription" name="TimesNewRomanPSMT" family="Times New Roman" pointSize="18"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <switch opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" id="bMz-ku-fI0">
+                                <rect key="frame" x="165" y="565" width="49" height="31"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <connections>
+                                    <action selector="morePetsSwitchOn:" destination="BYZ-38-t0r" eventType="valueChanged" id="av4-gx-i77"/>
+                                </connections>
+                            </switch>
+                            <pickerView clipsSubviews="YES" contentMode="scaleToFill" id="Afk-28-mjG">
+                                <rect key="frame" x="244" y="543" width="122" height="81"/>
+                                <autoresizingMask key="autoresizingMask" heightSizable="YES"/>
+                            </pickerView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="jcA-PK-37m">
+                                <rect key="frame" x="30" y="632" width="334" height="21"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="How much do you know about coding?">
+                                        <attributes>
+                                            <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                            <font key="NSFont" size="19" name=".SFNS-Regular"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="bPx-Yy-1gH">
+                                <rect key="frame" x="244" y="515" width="128" height="20"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="Favorite Color:">
+                                        <attributes>
+                                            <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                            <font key="NSFont" size="18" name="TimesNewRomanPSMT"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" red="0.90418077129678631" green="0.80151687559816909" blue="0.7863802576332144" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                    </view>
+                    <connections>
+                        <outlet property="codingSlider" destination="gvm-eD-wZ9" id="c04-hF-1lr"/>
+                        <outlet property="favoriteColorPickerView" destination="Afk-28-mjG" id="jrW-Hi-ks7"/>
+                        <outlet property="firstNameTextField" destination="9y0-qd-ZQl" id="yyd-RK-x9i"/>
+                        <outlet property="lastNameTextField" destination="3AX-MD-edL" id="nX0-ha-mQQ"/>
+                        <outlet property="locationSegmentedControl" destination="ikK-mV-udK" id="bGU-7z-R1w"/>
+                        <outlet property="majorTextField" destination="RHy-sZ-NJ5" id="QYn-yk-Dfe"/>
+                        <outlet property="morePetsSwitch" destination="bMz-ku-fI0" id="Jvt-kz-wif"/>
+                        <outlet property="numberOfPetsLabel" destination="qrf-DR-sP7" id="8f0-PV-vMC"/>
+                        <outlet property="numberOfPetsStepper" destination="nap-tn-cgo" id="IJi-aH-K2S"/>
+                        <outlet property="schoolNameTextField" destination="mNI-OA-SXY" id="Q6l-XH-mw6"/>
+                        <outlet property="yearSegmentedControl" destination="dfS-qp-JKe" id="846-Zw-VXA"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="35.877862595419849" y="3.5211267605633805"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="confusedclipart" width="610" height="612"/>
+        <image name="macaulaylogo" width="1113" height="360"/>
+        <image name="smartclipart" width="606" height="612"/>
+    </resources>
+</document>
