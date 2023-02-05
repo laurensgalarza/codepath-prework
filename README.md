@@ -2,14 +2,11 @@
 
 ### App Description
 
-`TODO://` A personalized introduction paragraph will be created using information inputted by the user. You must input the following information: First and Last name, School name, and major. Then, you can choose which location applies to you, which school year applies, the amount of pets you have, if you want more, and your favorite color. You can use the slider to define the amount of coding experience you have, and lastly press the "introduce self" button to display the completed introduction alert.
+A personalized introduction paragraph will be created using information inputted by the user. You must input the following information: First and Last name, School name, and major. Then, you can choose which location applies to you, which school year applies, the amount of pets you have, if you want more, and your favorite color. You can use the slider to define the amount of coding experience you have, and lastly press the "introduce self" button to display the completed introduction alert.
 
 ### App Walk-though
 
-`TODO://` Add the URL to your animated app walk-though `gif` in the image tag below. Make sure the gif actually renders and animates when viewing this README. (☝️ Remove this paragraph after after adding gif). LICEcap is a great tool for recording and you can simply upload the gif to GitHub and provide the path name in place of URL as shown below.
-
-<!-- <img src="(https://i.imgur.com/BJnZwoW.gifv)" width=200><br> OR <img src="YOUR_GIF_PATH" width=200><br> -->
-
+![ezgif com-gif-maker](https://user-images.githubusercontent.com/92804326/216795302-54e88793-3db8-403c-b189-a71ea0acb969.gif)
 
 ### Required Features
 
